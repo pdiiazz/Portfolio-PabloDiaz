@@ -91,8 +91,8 @@ p {
 
 /* Estilos de la cabecera */
 header {
-    min-height: 20vh;
-    padding: 5vh;
+    min-height: 20dvh;
+    padding: 5dvh;
     font-weight: bold;
 
     background-color: var(--color-fondo-oscuro);
@@ -111,7 +111,7 @@ header .indices {
 
 /* Estilos Hero */
 #hero {
-    min-height: 80vh;
+    min-height: 80dvh;
 
     color: var(--color-texto2);
 
@@ -129,7 +129,7 @@ header .indices {
 
 /* Estilos About Me */
 #aboutme {
-    min-height: 70vh;
+    min-height: 70ddvh;
     padding: 50px;
     text-align: justify;
 
@@ -147,7 +147,7 @@ header .indices {
 
 /* Estilos Habilidades */
 #habilidades {
-    min-height: 60vh;
+    min-height: 60dvh;
     gap: 1em;
 
     display: flex;
@@ -275,8 +275,8 @@ header .indices {
 
 /* Estilos Contacto */
 #contacto {
-    min-height: 50vh;
-    padding-bottom: 5vh;
+    min-height: 50dvh;
+    padding-bottom: 5dvh;
 }
 
 #contacto h2 {
@@ -297,12 +297,12 @@ header .indices {
 }
 
 .contenedor img {
-    width: 100px;
+    width: 80px;
 }
 
 /* Estilos Footer */
 footer {
-    min-height: 20vh;
+    min-height: 20dvh;
 
     background-color: var(--color-fondo-oscuro);
     color: var(--color-texto2);
@@ -358,7 +358,7 @@ footer a {
 
     .cardContainer {
         grid-template-columns: 1fr 1fr 1fr;
-        height: 40vh;
+        height: 40dvh;
 
         gap: 80px;
 
@@ -373,7 +373,7 @@ footer a {
 
     .cards h3 {
         font-size: 2rem;
-        margin-bottom: 4dvh;
+        margin-bottom: 4ddvh;
     }
 
     .elementos2>.icono, .elementos3>.icono {
