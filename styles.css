@@ -129,7 +129,7 @@ header .indices {
 
 /* Estilos About Me */
 #aboutme {
-    min-height: 70ddvh;
+    min-height: 70dvh;
     padding: 50px;
     text-align: justify;
 
@@ -373,7 +373,7 @@ footer a {
 
     .cards h3 {
         font-size: 2rem;
-        margin-bottom: 4ddvh;
+        margin-bottom: 4dvh;
     }
 
     .elementos2>.icono, .elementos3>.icono {
