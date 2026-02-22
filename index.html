@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pablo Díaz | Desarrollador de Aplicaciones Multiplataforma</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="media/favicon.ico">
+    <!-- Fuente de Google Fonts (General) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="flex-column"> <!-- Estilos flex-row y flex-column para flex -->
+        <a href="#hero">
+            <span>Pablo Díaz</span>
+        </a>
+        <nav class="flex-row">
+            <a href="#aboutme" class="indices">Sobre Mí</a>
+            <a href="#proyectos" class="indices">Proyectos</a>
+            <a href="#habilidades" class="indices">Habilidades</a>
+            <a href="#contacto" class="indices">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Sección para la Cabecera -->
+        <section id="hero" class="flex-column">
+            <h1>Desarrollador <br> Multiplataforma</h1>
+            <h2>Pablo Díaz</h2>
+            <p>Kotlin & Java Developer</p>
+        </section>
+        <!-- Sección para el Sobre Mí -->
+        <section id="aboutme" class="flex-column">
+            <div>
+                <h2>Sobre Mí</h2>
+                <p>Soy Pablo, estudiante de Desarrollo de Aplicaciones Multiplataforma. Mi objetivo es llegar a ser algún día ingeniero de Software. Me encanta aprender nuevas cosas y entender cómo funcionan detrás del código. Actualmente estoy aprendiendo Java, Kotlin, Spring y tocando algo de Docker. Me gusta aprender y que se me presenten nuevos retos.</p>            
+            </div>
+            <figure>
+                <img src="media/pph.webp" alt="Foto de Pablo Díaz">
+            </figure>
+        </section>
+        <!-- Sección de Proyectos -->
+        <section id="proyectos" class="flex-column">
+            <h2>Proyectos</h2>
+            <div class="proyectoContainer">
+                <article class="proyecto">
+                    <div class="burbujaTexto">
+                        <h3>Portfolio v1.0</h3>
+                        <p>Portfolio en versión inicial. Proyecto personal para publicar próximos proyectos multiplataforma. Desarrollado por mí usando HTML y CSS. Probado con Lighthouse, validado con W3C, diseño adaptativo y buenas prácticas.</p>
+                        <div class="link-img">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <img src="media/github-logo.webp" alt="GitHub" class="icono">
+                            </a>
+                            <img src="media/html-icon.webp" alt="HTML" class="icono">
+                            <img src="media/css-icon.webp" alt="CSS" class="icono">
+                        </div>
+                    </div>
+                    <div class="burbujaImagen">
+                        <img src="media/proyecto1.webp" alt="Imagen Proyecto">
+                    </div>  
+                </article>
+            </div>
+        </section>
+        <!-- Sección para cartas de Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="cardContainer">
+                <article class="cards">
+                    <h3>Lenguajes Usados</h3>
+                    <div class="elementos3">
+                        <img src="media/kotlinLogo.webp" alt="Kotlin" class="icono">
+                        <img src="media/javaLogo.webp" alt="Java" class="icono">
+                        <img src="media/jsLogo.webp" alt="JS" class="icono">
+                        <img src="media/html-icon.webp" alt="HTML" class="icono">
+                        <img src="media/css-icon.webp" alt="CSS" class="icono">
+                        <img src="media/sqlLanguage.webp" alt="SQL" class="icono">
+                    </div>
+                </article>
+                <article class="cards">
+                    <h3>Frameworks</h3>
+                    <div class="elementos2">
+                        <img src="media/springLogo.webp" alt="Spring" class="icono">
+                        <img src="media/composeLogo.webp" alt="Compose" class="icono">                    
+                    </div>
+                </article>
+                <article class="cards">
+                    <h3>Otras Tecnologías</h3>
+                    <div class="elementos3">
+                        <img src="media/intelijLogo.webp" alt="IntelIJ" class="icono">
+                        <img src="media/visualstudiocodeLogo.webp" alt="VS Code" class="icono">
+                        <img src="media/gitLogo.webp" alt="Git"  class="icono">
+                        <img src="media/github-logo.webp" alt="GitHub" class="icono">
+                        <img src="media/dockerLogo.webp" alt="Docker" class="icono">
+                        <img src="media/mariaDBLogo.webp" alt="SQL" class="icono">
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Contacto -->
+        <section id="contacto" class="flex-column">
+            <h2>Contacto</h2>
+            <p>¡No dudes en contactarme!</p>
+            <div class="contenedor">
+                <div class="hijos">
+                    <a href="https://github.com/pdiiazz" target="_blank" rel="noopener noreferrer" class="flex-column"><img src="media/github-logo.webp" alt="">Mi GitHub</a>
+                </div>
+                <div class="hijos">
+                    <a href="https://www.linkedin.com/in/pdiiazz/" target="_blank" rel="noopener noreferrer" class="flex-column"><img src="media/linkedin-logo.webp" alt="">Mi LinkedIn</a>
+                </div>
+                <div class="hijos">
+                    <a href="mailto:pablodiazgonzalez2006@gmail.com" target="_blank" rel="noopener noreferrer" class="flex-column"><img src="media/gmailLogo.webp" alt="">Mi Correo</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="flex-column">
+        <small>Desarrollado usando HTML & CSS. By Pablo Díaz.</small>
+        <small>Portfolio v1.0 · 2026</small>
+    </footer>
+</body>
+</html>
